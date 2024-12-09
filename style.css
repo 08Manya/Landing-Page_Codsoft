@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    width: 100%;
+    height: 60%;
+    background-image: url(https://i.pinimg.com/736x/58/47/5d/58475d4ab3b2b669fde0554d4ce690b2.jpg);
+    background-size: cover;
+    background-position: 42% 58%;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#text{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 10vw;
+}
+
+#textright{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#textright p{
+    font-size: 12px;
+    width: 40%;
+
+}
+#text h1{
+    font-size: 6vw;
+    font-weight: 500;
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: black;
+}
+
+#bone{
+    padding: 30px;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(136, 61, 7);
+}
+
+#bone p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#btwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/736x/ec/55/79/ec5579b3fe33fcf39793335ad7b0d682.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthree{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(14, 18, 77);
+}
+
+#bthreetop{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    background-color: rgb(201, 146, 182);
+}
+
+#bthreetop p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#bthreebottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://i.pinimg.com/736x/79/8b/7e/798b7edf86cb80f30b09fe8a98d1d5a7.jpg);
+    background-size: cover;
+}
+
+#bfour{
+    width: 30%;
+    height: 100%;
+    padding: 30px;
+    background-color: grey;
+}
+
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(3, 0, 5);
+}
+
+.notf p{
+    width: 86%;
+    font-size: 15px;
+}
